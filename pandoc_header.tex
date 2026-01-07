@@ -1,0 +1,5 @@
+% Pandoc LaTeX header includes.
+% - Add a page break right after the table of contents.
+\usepackage{etoolbox}
+\apptocmd{\tableofcontents}{\newpage}{}{}
+
